@@ -8,8 +8,7 @@
 
 3. Then, open the folder.
 4. Open "**execute.js**" with text editor
-![](https://i.imgur.com/1VovTNp.png)
-5. Replace **2920** with your own TOJ ID ans save it.
+5. Replace **2920** with your own TOJ ID ans save it.![](https://i.imgur.com/1VovTNp.png)
 6. Open **Google Chrome** to set it up.
 7. Choose "**更多工具**" => "**擴充功能**"
 ![](https://i.imgur.com/ROwkedo.png)
