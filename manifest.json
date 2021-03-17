@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "MIAC-tfcisOJ",
+  "description": "To check if the problems in the page of TOJ are Accepted.",
+  "version": "1.0.0",
+  "icons": {
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://toj.tfcis.org/oj/chal/*"
+      ],
+      "js": [
+        "execute.js"
+      ]
+    }
+  ]
+}
