@@ -1,5 +1,4 @@
-var run = 1;
-setInterval(function(){
+function main(){
 	var url = 'https://toj.tfcis.org/oj/be/acct/2920'; //TOJ ID
 
 	fetch(url, {method:'GET'})
@@ -48,5 +47,6 @@ setInterval(function(){
 			}
 		}
 	});
-},1000);
+}
+setTimeout(main, 200);
 
